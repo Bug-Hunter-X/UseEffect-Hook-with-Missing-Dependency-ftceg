@@ -1,0 +1,3 @@
+# React useEffect Hook with Missing Dependency
+
+This example demonstrates a common error in React's `useEffect` hook.  The effect is intended to run only once after the initial render, but due to a missing dependency, it runs on every render, leading to unexpected behavior and potential performance issues.  The solution shows how to correctly specify dependencies to ensure the effect runs only when needed.
